@@ -1,5 +1,6 @@
 # VoxElecta-Online-Voting-System
 Built a secure online voting platform using Java, Hibernate, and MySQL with OTP-based authentication and BCrypt password hashing. Implemented one-vote-per-user logic, real-time results dashboard, and admin panel, following MVC architecture and deployed on Apache Tomcat.
+
 Overview
 
 VoxElecta is a modern, secure, and scalable online voting system built using Java Enterprise technologies. It enables users to register, verify via OTP, and cast votes securely with real-time result visualization.
@@ -27,9 +28,7 @@ VoxElecta is a modern, secure, and scalable online voting system built using Jav
 📌 Replace these placeholder images with your actual screenshots (/screenshots folder recommended)
 
 🎥 Demo
-
 🔗 Live Demo:
-
 http://localhost:8085/OnlineVoitingSys/
 
 📺 Video Demo:
@@ -45,6 +44,7 @@ Charts	Chart.js
 Security	BCrypt, OTP (Fast2SMS)
 Server	Apache Tomcat
 Build Tool	Maven
+
 📂 Project Structure
 src/main/java/com/voting/
  ├── model/       # Entities
@@ -56,12 +56,15 @@ src/main/java/com/voting/
 webapp/
  ├── jsp/         # UI pages
  ├── images/      # Assets
+
+ 
 ⚙️ Installation & Setup
 🔹 Prerequisites
 Java 11+
 MySQL 8+
 Apache Tomcat 10+
 Maven
+
 🔹 Steps
 1. Clone Repository
 git clone https://github.com/your-username/VoxElecta.git
@@ -76,11 +79,13 @@ src/main/resources/hibernate.cfg.xml
 <property name="connection.url">jdbc:mysql://localhost:3306/election</property>
 <property name="connection.username">root</property>
 <property name="connection.password">your_password</property>
+
 4. Build & Run
 mvn clean install
 Deploy .war file in Tomcat
 Start server
-5. Open in Browser
+
+6. Open in Browser
 http://localhost:8085/OnlineVoitingSys/
 🔐 Security Highlights
 🔒 BCrypt password hashing
